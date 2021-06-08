@@ -1,0 +1,33 @@
+*{margin: 0px;padding: 0px;text-decoration: none;}
+
+header{position: absolute; z-index: 9999;width: 100%;height: 0px;display: flex;justify-content: center;align-items: center;}
+nav{width: 1920px;height: 80px;padding-top: 90px;}
+nav > ul{border: 0px solid red;display: grid;grid-template-columns: 280px 180px 170px 180px;height: 100px;}
+nav > ul > li{display: flex;justify-content: center;align-items: center;list-style: none;font-family: 'Noto Sans KR', sans-serif;font-weight: 500;font-size: 20px; margin : 0px 10px; border : 5px color red; padding-top: -20px;}
+nav > ul > li > a{color: #FFFFFF;}
+nav > ul > li > a:hover{color: #E61C5A;transform: scale(1.1);transition: 0.1s;}
+div > a {color: white;}
+p{color: #E61C5A;}
+
+.bottom_padding{display: inline-block;border: 0px solid red;font-family: 'Noto Sans KR' sans-serif;font-weight: 700; font-size: 25px; color: #ffffff;
+position: absolute; z-index: 2;margin-top: 660px; margin-left: 340px; }
+
+.bottom_padding2{display: inline-block;border: 0px solid red;font-family: 'Noto Sans KR' sans-serif;font-weight: 700; font-size: 25px; color: #ffffff;
+position: absolute; z-index: 2;margin-top: 660px; margin-left: 535px;}
+.bottom_padding3{display: inline-block;border: 0px solid red;font-family: 'Noto Sans KR' sans-serif;font-weight: 700; font-size: 25px; color: #ffffff;
+position: absolute; z-index: 2;margin-top: 660px; margin-left: 870px;}
+.bottom_padding4{display: inline-block;border: 0px solid red;font-family: 'Noto Sans KR' sans-serif;font-weight: 700; font-size: 25px; color: #ffffff;
+position: absolute; z-index: 2;margin-top: 660px; margin-left: 1080px;}
+.bottom_padding5{display: inline-block;border: 0px solid red;font-family: 'Noto Sans KR' sans-serif;font-weight: 700; font-size: 25px; color: #ffffff;
+position: absolute; z-index: 2;margin-top: 660px; margin-left: 1400px;}
+#myvideo {left: 0; top: 0;min-width: 100%;min-height: 100%;}
+.promotion{width: 100%;height: 850px;}
+.prom_img{border: 0px solid red;position: absolute;display: inline-block;left: 25%;top: 70%;}
+
+.cont1{width: 100%;height: 2521px;background-image: url('img/00_04.png');}
+.cont1_img{position: absolute;right: 0;padding-top: 0px;}
+.cont2_img{display: inline-block;position: relative;left: 1341px;top:1006px;}
+.cont3_img{position: relative;top:1140px;width: 100%;height: 349px;border: 0px solid red;display: flex;justify-content: space-around;}
+.cont4_img{position: relative;top:1400px;}
+
+footer{margin-top: 0px;}
